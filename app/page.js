@@ -1,9 +1,10 @@
 "use client";
+import Header from "./Components/Header";
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
-      {/* <Header className="flex-1" /> */}
+      <Header className="flex-1" />
       <section className="flex-2 h-full  ">
         <div className="mx-auto max-w-screen-xl px-4 py-8 flex flex-col lg:items-center ">
           <img
@@ -19,9 +20,7 @@ export default function Home() {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a
-                className="block w-full rounded border border-foreground bg-foreground px-12 py-3 text-sm font-medium text-white hover:bg-background hover:text-foreground focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              >
+              <a className="block w-full rounded border border-foreground bg-foreground px-12 py-3 text-sm font-medium text-white hover:bg-background hover:text-foreground focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
                 Login with Google
               </a>
 
